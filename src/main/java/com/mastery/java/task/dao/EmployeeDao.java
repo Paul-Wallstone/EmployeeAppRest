@@ -18,5 +18,5 @@ public interface EmployeeDao {
 
     public Boolean removeById(Long id);
 
-    public Employee update(Employee employee);
+    public Boolean update(Employee employee);
 }
